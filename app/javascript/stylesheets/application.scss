@@ -1,0 +1,34 @@
+body{background-color: azure;}
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover{
+    color: rgb(185, 162, 162);
+    text-decoration: none;
+}
+
+.container{
+    text-align: center;
+}
+
+.jumbotron{
+    background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--B4ypc7m5--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/vfxt3x3unfv9mxc7kyhj.jpeg');
+    background-size: cover;
+    height: 550px;
+}
+
+footer{
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+    position: absolute;
+}
+
