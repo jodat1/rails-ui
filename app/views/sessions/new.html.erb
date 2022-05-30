@@ -1,0 +1,21 @@
+<h1> Login Screen </h1>
+
+
+<%= form_for :session, url: login_path do |f| %>
+    <p>
+        <%= f.label :email %> <br>
+        <%= f.email_field :email, placeholder:"Enter email" %>
+        
+    </p>
+    <p>
+        <%= f.label :password %> <br>
+        <%= f.password_field :email, placeholder:"Enter password", autocomplete: "off" %>
+    </p>
+    
+    <p>
+        <%= f.submit "Login" %> 
+    </p>
+
+<% end %>
+
+<%= link_to "Go back to articles listing", articles_path%>  
